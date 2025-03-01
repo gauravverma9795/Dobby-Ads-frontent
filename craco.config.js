@@ -1,8 +1,8 @@
 // craco.config.js
 module.exports = {
     style: {
-        postcss: {
-            plugins: [require('autoprefixer')],
-        },
+      postcss: {
+        plugins: [require('autoprefixer')],
+      },
     },
-};
+  };
