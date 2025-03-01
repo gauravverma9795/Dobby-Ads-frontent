@@ -1,0 +1,61 @@
+/* client/src/components/Dashboard/ImageUpload.css */
+.upload-container {
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background: #f9f9f9;
+}
+
+.upload-input {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+.file-input {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background: white;
+}
+
+.name-input {
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.image-preview {
+    margin: 15px 0;
+    text-align: center;
+}
+
+.image-preview img {
+    max-width: 300px;
+    max-height: 200px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+}
+
+.upload-button {
+    background: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.upload-button:disabled {
+    background: #cccccc;
+    cursor: not-allowed;
+}
+
+.error-message {
+    color: #f44336;
+    margin-bottom: 10px;
+    text-align: center;
+}
