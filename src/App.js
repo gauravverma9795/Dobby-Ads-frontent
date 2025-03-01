@@ -7,7 +7,8 @@ import Signup from './components/Auth/Signup';
 import Dashboard from './components/Dashboard/Dashboard';
 import PrivateRoute from './components/PrivateRoute';
 import { useAuth } from './context/AuthContext';
-import './App.css';  // Update the import path
+// src/App.js
+import './styles/global.css'; // Update the import path
 
 function App() {
   const { user } = useAuth();

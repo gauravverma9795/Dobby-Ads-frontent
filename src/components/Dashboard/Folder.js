@@ -1,8 +1,9 @@
-// components/Dashboard/Folder.js
+
+// src/components/Dashboard/Folder.js
 import React, { useState, useEffect } from 'react';
-import { FaFolder, FaFolderOpen, FaArrowLeft } from 'react-icons/fa';
+import { FaFolder, FaArrowLeft } from 'react-icons/fa';
 import api from '../../services/api';
-import './Folder.css';
+import '../../styles/Folder.css';  // Update the import path
 
 const Folder = ({ folderId, onFolderClick, onUpdate }) => {
     const [folders, setFolders] = useState([]);
